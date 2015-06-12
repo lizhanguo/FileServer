@@ -10,7 +10,7 @@ server.py | The Server program
 client.py | The Client program
 The default port:6000
 The user default directory:/opt/rh/%username
-
+The user default 1024MB space
 ------------------------------------------------------
 
 
