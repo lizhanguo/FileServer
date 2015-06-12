@@ -18,7 +18,7 @@ User guide
 --------------------
 Server
 1. Install MySql 5.1 version
-2. mddir /opt/rh
+2. mkdir /opt/rh
 3.create database file;
 4.grant all on *.* to 'root'@'%' identified by 'password'
 5.Use the admin.py create tables and users
