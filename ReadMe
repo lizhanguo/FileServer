@@ -1,0 +1,31 @@
+Description
+
+    This is a very powerful file transfer tool,Using the python 2.7 and the socket module
+May have to use various problems, don't be afraid, You can to reconnect once.
+Connect to the database using mysql-connector-python module
+
+------------------------------------------------------
+admin.py  | for administrator module, create tables,user,and delete user
+server.py | The Server program
+client.py | The Client program
+The default port:6000
+The user default directory:/opt/rh/%username
+
+------------------------------------------------------
+
+
+User guide
+--------------------
+Server
+1. Install MySql 5.1 version
+2. mddir /opt/rh
+3.create database file;
+4.grant all on *.* to 'root'@'%' identified by 'password'
+5.Use the admin.py create tables and users
+6.Run the server.py server deployment is complete
+
+-------------------
+Client
+1.Open the client.py input you need to connect the server IP
+2.After success of the login, there are five command can be used,
+3.At the command line interface input 'help' to view  help
